@@ -1,9 +1,12 @@
 {
   "name": "toggle-docks",
   "main": "./lib/toggle-docks",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Toggles between the left, right and bottom docks being closed and restoring the previous state.",
-  "keywords": ["dock","docks","toggle"
+  "keywords": [
+    "dock",
+    "docks",
+    "toggle"
   ],
   "activationCommands": {
     "atom-workspace": "toggle-docks:toggle"
@@ -13,6 +16,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
