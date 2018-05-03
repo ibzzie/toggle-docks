@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle toggle-docks",
+        "command": "toggle-docks:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "toggle-docks",
+          "submenu": [
+            {
+              "label": "Toggle Docks",
+              "command": "toggle-docks:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
